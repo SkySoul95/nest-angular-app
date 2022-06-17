@@ -1,0 +1,21 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "start:dev",
+			"path": "backend",
+			"problemMatcher": [],
+			"label": "Backend --watch",
+			"detail": "nest start --watch"
+		},
+		{
+			"type": "npm",
+			"script": "watch",
+			"path": "frontend",
+			"problemMatcher": [],
+			"label": "Frontend --watch",
+			"detail": "ng build --watch --configuration development"
+		}
+	]
+}
