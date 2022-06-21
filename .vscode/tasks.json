@@ -7,7 +7,7 @@
 			"path": "backend",
 			"problemMatcher": [],
 			"label": "Backend --watch",
-			"detail": "nest start --watch"
+			"detail": "nest build --watch"
 		},
 		{
 			"type": "npm",
@@ -16,6 +16,22 @@
 			"problemMatcher": [],
 			"label": "Frontend --watch",
 			"detail": "ng build --watch --configuration development"
+		},
+		{
+			"type": "npm",
+			"script": "start",
+			"path": "frontend",
+			"problemMatcher": [],
+			"label": "npm: start - frontend",
+			"detail": "ng serve"
+		},
+		{
+			"type": "npm",
+			"script": "start",
+			"path": "backend",
+			"problemMatcher": [],
+			"label": "npm: start - backend",
+			"detail": "nest start"
 		}
 	]
 }
