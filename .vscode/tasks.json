@@ -3,35 +3,35 @@
 	"tasks": [
 		{
 			"type": "npm",
+			"script": "start",
+			"path": "backend",
+			"problemMatcher": [],
+			"label": "Backend Start",
+			"detail": "nest start"
+		},
+		{
+			"type": "npm",
 			"script": "start:dev",
 			"path": "backend",
 			"problemMatcher": [],
-			"label": "Backend --watch",
+			"label": "Backend Watch",
 			"detail": "nest build --watch"
+		},
+		{
+			"type": "npm",
+			"script": "start",
+			"path": "frontend",
+			"problemMatcher": [],
+			"label": "Frontend Watch",
+			"detail": "ng serve --watch"
 		},
 		{
 			"type": "npm",
 			"script": "watch",
 			"path": "frontend",
 			"problemMatcher": [],
-			"label": "Frontend --watch",
-			"detail": "ng build --watch --configuration development"
-		},
-		{
-			"type": "npm",
-			"script": "start",
-			"path": "frontend",
-			"problemMatcher": [],
-			"label": "npm: start - frontend",
-			"detail": "ng serve"
-		},
-		{
-			"type": "npm",
-			"script": "start",
-			"path": "backend",
-			"problemMatcher": [],
-			"label": "npm: start - backend",
-			"detail": "nest start"
+			"label": "Frontend Watch Build",
+			"detail": "ng build --watch dev"
 		}
 	]
 }
