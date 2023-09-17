@@ -32,6 +32,14 @@
 			"problemMatcher": [],
 			"label": "Frontend Watch Build",
 			"detail": "ng build --watch dev"
+		},
+		{
+			"type": "npm",
+			"script": "build:prod",
+			"path": "frontend",
+			"problemMatcher": [],
+			"label": "Frontend Build Prod",
+			"detail": "ng build:prod"
 		}
 	]
 }
