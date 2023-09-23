@@ -15,7 +15,15 @@
 			"path": "backend",
 			"problemMatcher": [],
 			"label": "Backend Watch",
-			"detail": "nest build --watch"
+			"detail": "SET NODE_ENV=development&&nest start --watch"
+		},
+		{
+			"type": "npm",
+			"script": "build:dev",
+			"path": "backend",
+			"problemMatcher": [],
+			"label": "Backend Build",
+			"detail": "SET NODE_ENV=development&& nest build"
 		},
 		{
 			"type": "npm",
@@ -30,8 +38,16 @@
 			"script": "watch",
 			"path": "frontend",
 			"problemMatcher": [],
-			"label": "Frontend Watch Build",
+			"label": "Frontend Watch Standalone Build",
 			"detail": "ng build --watch dev"
+		},
+		{
+			"type": "npm",
+			"script": "build:dev",
+			"path": "frontend",
+			"problemMatcher": [],
+			"label": "Frontend Build Dev",
+			"detail": "ng build:dev"
 		},
 		{
 			"type": "npm",
