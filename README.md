@@ -1,6 +1,5 @@
 # NEST + ANGULAR APP SAMPLE
-It contains useful modules and features to start a new nest + angular project.
-Don't blame me, it's just a starting point, do whatever you want with this (but improve it together would be better <3)
+It contains useful modules and features to kickstart a new Angular project. Don't blame me; it's just a starting point. Feel free to do whatever you want with it (though improving it together would be even better ❤️).
 
 ## Features
 - ### JWT Authentication
