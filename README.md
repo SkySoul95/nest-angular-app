@@ -1,10 +1,10 @@
-# NEST + ANGULAR APP SAMPLE
+# NEST + ANGULAR STARTER-KIT
 It contains useful modules and features to kickstart a new Angular project. Don't blame me; it's just a starting point. Feel free to do whatever you want with it (though improving it together would be even better ❤️).
 
 ## Features
 - ### JWT Authentication
 - ### Static File Serve
-- ### MultiTranslation
+- ### Multilanguage
 - ### Basic Bootstrap UI Kit
 - ### BuiltIn Useful Commands
 
